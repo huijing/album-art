@@ -136,45 +136,18 @@ a {
 }
 
 .c-division__inner-1 {
-  width: 0;
-  height: 0;
-  padding-top: 25%;
-  padding-bottom: 25%;
-  padding-left: 25%;
-  overflow: hidden;
-}
-
-.c-division__inner-1:after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  margin-top: -500px;
-  margin-left: -500px;
-  border-top: 500px solid transparent;
-  border-bottom: 500px solid transparent;
-  border-left: 500px solid #1e292f;
+  border-top: 18.75vmin solid transparent;
+  border-bottom: 18.75vmin solid transparent;
+  border-left: 18.75vmin solid #1e292f;
 }
 
 .c-division__inner-2 {
   position: absolute;
   right: 0;
-  width: 25%;
-  height: 0;
-  padding-top: 25%;
-  padding-bottom: 25%;
-  overflow: hidden;
-}
-
-.c-division__inner-2:after {
-  content: '';
-  display: block;
-  width: 0;
-  height: 0;
-  margin-top: -500px;
-  border-top: 500px solid transparent;
-  border-bottom: 500px solid transparent;
-  border-right: 500px solid #1e292f;
+  bottom: 0;
+  border-top: 18.75vmin solid transparent;
+  border-bottom: 18.75vmin solid transparent;
+  border-right: 18.75vmin solid #1e292f;
 }
 
 .c-epoch {
